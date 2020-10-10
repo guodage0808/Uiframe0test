@@ -10,7 +10,7 @@ class TestShouye(unittest.TestCase):
         self.driver.get("http://101.133.169.100/yuns/index.php")
         self.driver.maximize_window()
         time.sleep(5)
-        print("starttime:" + time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time())))
+        print("starttimes:" + time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time())))
 
     def tearDown(self):
         filedir = "D:/test/screenshot/"
